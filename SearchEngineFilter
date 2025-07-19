@@ -20,3 +20,6 @@ google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-as
 google.com##[data-curl*='youtube.com']:has-text('/collective shout/i')
 google.com##[href*='instagram.com']:has-text('/collective.shout/i'):upward(div):upward(div)
 google.com##[href*='facebook.com']:has-text('/collective shout/i'):upward(div):upward(div)
+
+! Removes form 'Videos' section
+google.com##[href*='collectiveshout']:upward(div):upward(div):upward(div):upward(div)
