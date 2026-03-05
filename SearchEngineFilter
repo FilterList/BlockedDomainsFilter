@@ -1,10 +1,12 @@
 ! Removes from google 'All' searches
+google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='nanoclaw.net']:upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='equalizerapo.com']:upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='collectiveshout.org']:upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='betterwayelectronics.com.au']:upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='peaceequalizer.com']:upward(div):upward(div):upward(div):upward(div):upward(div)
 
 ! Removes from google 'Images' searches
+google.com##div[selected=""]:has-text(/images/i):upward(div[id="main"])  a[href*='\/nanoclaw.net']:upward(div):upward(div)
 google.com##div[selected=""]:has-text(/images/i):upward(div[id="main"])  a[href*='\/equalizerapo.com']:upward(div):upward(div)
 google.com##div[selected=""]:has-text(/images/i):upward(div[id="main"])  a[href*='\/collective-shout']:upward(div):upward(div)
 google.com##div[selected=""]:has-text(/images/i):upward(div[id="main"])  a[href*='\/collectiveshout']:upward(div):upward(div)
@@ -14,6 +16,7 @@ google.com##div[selected=""]:has-text(/images/i):upward(div[id="main"])  a[href*
 google.com##div[selected=""]:has-text(/images/i):upward(div[id="main"])  a[href*='peaceequalizer.com']:upward(div):upward(div)
 
 ! Removes from google 'All' searches
+google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='\/nanoclaw.net']:upward(div):upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='\/equalizerapo.com']:upward(div):upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='\/collective-shout']:upward(div):upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='\/collectiveshout']:upward(div):upward(div):upward(div):upward(div):upward(div):upward(div)
