@@ -1,3 +1,5 @@
+! Title: BlockedDomainsFilter/SearchEngineFilter
+! Expires: 12 hours
 ! Removes from google 'All' searches
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='nanoclaw.net']:upward(div):upward(div):upward(div):upward(div):upward(div)
 google.com##div[selected=""]:has-text(/all/i):upward(div[id="main"]) div[data-async-context^="query"] a[href*='equalizerapo.dev']:upward(div):upward(div):upward(div):upward(div):upward(div)
